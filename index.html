@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .button{
+        background-color: rgb(131, 127, 160);
+        border:0px;
+        padding:10px;
+        font-size:20px;
+        margin-bottom:10px;
+        border-radius:10px;
+        cursor: pointer;
+      }
+     /* .button:hover + .content{
+        display: block; 
+
+      }*/
+    /*..  button:hover + .content{
+        display:block;
+    opacity:0.80;
+      } */
+      .content {
+        display:none;
+        width:250px;
+        border:1px solid;
+        background-color: #c8c8c8;
+      }
+      .content > a {
+        display: block;
+        text-decoration: none;
+        margin:10px;
+        text-align: center;
+        background-color: azure;
+        padding:10px ;
+        color: rgb(9, 184, 36);
+        font-size:18px;
+        border:1px solid;
+    }
+    .button:focus-within + .content{
+      display: block;
+    }
+    </style>
+</head>
+<body>
+    <button class="button">Adhar Card</button>
+    <div class="content">
+    <a href="#">Have any quesstions?</a>
+    <a href="#" >number:1234 3455 2345</a>
+    <a href="#">adhar code</a>
+    <a href="#">Have any quesstions?</a>
+    <a href="#">adhar number:1234 3455 2345</a>
+    <a href="#">adhar code</a>
+    </div>
+</body>
+</html>
